@@ -1,10 +1,9 @@
-import Link from 'next/link';
 import React from 'react';
 
 const Navbar = () => {
     return (
         <div>
-            <Link href="/home">work</Link>
+            <h1>Navbar</h1>
         </div>
     );
 }
