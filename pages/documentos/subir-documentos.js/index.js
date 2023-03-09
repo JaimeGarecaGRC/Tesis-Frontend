@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './subir-documentos.module.scss';
 import FileUpload from '../../../components/file-upload/file-upload';
+import Message from '../../../components/message/message';
 
 const SubirDocumentos = () => {
     return (
@@ -19,22 +20,13 @@ const SubirDocumentos = () => {
                             <div className={styles.marginUploadButton}>
                                 <FileUpload />
                             </div>
-
-                            <article class={`message is-link ` + styles.marginMessage}>
-                                <div class="message-header">
-                                    {/* <p>Subido con Exito</p> */}
-                                    <p>Subir un Archivo</p>
-                                </div>
-                                <div class="message-body">
-                                    {/* El archivo <strong>Nombre-Con-Archivo.txt</strong> se subio en exito. */}
-                                    Sube un archivo de formato .PDF o .WORD
-                                </div>
-                            </article>
+                            <div className={styles.marginMessage}>
+                                <Message />
+                            </div>
                         </div>
                         <div class="column"></div>
                     </div>
                 </div>
-
 
                 <progress class={`progress is-link ` + styles.marginProgressBar} value="50" max="100">50%</progress>
 
