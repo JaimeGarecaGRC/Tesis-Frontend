@@ -1,1 +1,32 @@
+
+$primary: #083D77;
+$link: #D8E9FD;
+$info: #FFFFFF;
+$success: #3BE3B3;
+$warning: #FE9000;
+$danger: #DF2935;
+$dark: #06231B;
+$text: #03120E;
+
+$body-background-color: #F1F7F9;
+
+.horizontal-alignment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    width: 100rem;
+    height: 45rem;
+}
+
+.menu-color{
+    background-color: $info;
+    padding: 10px;
+}
+
 @import "../node_modules/bulma/bulma.sass";
+
+
+
