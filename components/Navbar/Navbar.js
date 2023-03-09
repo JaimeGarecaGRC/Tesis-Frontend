@@ -20,7 +20,7 @@ const Navbar = () => {
                 </div>
 
                 <div className="navbar-end">
-                <div className="navbar-item has-dropdown is-hoverable">
+                    <div className="navbar-item has-dropdown is-hoverable">
                         <a className="navbar-link">
                             Nombre Usuario
                         </a>
