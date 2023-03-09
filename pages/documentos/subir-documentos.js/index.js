@@ -20,7 +20,6 @@ const SubirDocumentos = () => {
                                 <FileUpload />
                             </div>
 
-
                             <article class={`message is-link ` + styles.marginMessage}>
                                 <div class="message-header">
                                     {/* <p>Subido con Exito</p> */}
