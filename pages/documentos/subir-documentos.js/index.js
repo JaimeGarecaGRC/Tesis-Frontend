@@ -2,6 +2,8 @@ import React from 'react';
 import styles from './subir-documentos.module.scss';
 import FileUpload from '../../../components/file-upload/file-upload';
 import Message from '../../../components/message/message';
+import ProgressBar from '../../../components/progress-bar/progress-bar';
+import PaginationButtons from '../../../components/pagination-buttons/pagination-buttons';
 
 const SubirDocumentos = () => {
     return (
@@ -28,12 +30,15 @@ const SubirDocumentos = () => {
                     </div>
                 </div>
 
-                <progress class={`progress is-link ` + styles.marginProgressBar} value="50" max="100">50%</progress>
+                <div className= { styles.marginProgressBar }>
+                    <ProgressBar />
+                </div>
 
-                <nav class="pagination is-centered" role="navigation" aria-label="pagination">
-                    <button class="button is-link">Anterior</button>
-                    <button class="pagination-next button is-link">Siguiente</button>
-                </nav>
+                <div>
+                    <PaginationButtons />
+                </div>
+
+
             </div>
         </div>
     );
