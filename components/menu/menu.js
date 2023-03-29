@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
-import { useRouter } from 'next/router';
+import { useRouter } from 'next/router';    
 import { getCurrentPath, changeMenu } from '/components/menu/menu-logic.js';
 
 const Menu = () => {
@@ -20,7 +20,7 @@ const Menu = () => {
     }, [changer]);
     
     return (
-        <aside className="menu">
+        <aside className="menu box-menu">
 
             {/* Seccion de Busqueda */}
             <p className="menu-label" onClick = { () => console.log(menuOptions)}>
