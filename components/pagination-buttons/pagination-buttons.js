@@ -1,5 +1,5 @@
 
-const PaginationButtons = () => {
+function PaginationButtons() {
     return (
         <nav class="pagination is-centered" role="navigation" aria-label="pagination">
             <button class="button is-link">Anterior</button>

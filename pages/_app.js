@@ -1,9 +1,9 @@
 
 import { useRouter } from 'next/router';
 import Navbar from '../components/navbar/navbar';
+import "@fortawesome/fontawesome-free/css/all.min.css";
 import '../styles/styles.scss';
-import Menu from '../components/menu/menu';
-;
+import Menu from '../components/menu/menu'; 
 
 function MyApp({ Component, pageProps }) {
     

@@ -1,5 +1,5 @@
 
-const ProgressBar = () => {
+function ProgressBar() {
     return (
         <progress class={`progress is-link`} value="50" max="100">50%</progress>
     );

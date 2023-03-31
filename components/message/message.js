@@ -1,5 +1,5 @@
 
-const Message = () => {
+function Message() {
     return (
         <article class={`message is-link `}>
             <div class="message-header">

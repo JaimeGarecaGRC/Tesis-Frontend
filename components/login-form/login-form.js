@@ -1,7 +1,7 @@
 import { useRouter } from 'next/router';
 import React from 'react';
 
-const LoginForm = () => {
+function LoginForm() {
 
     const  router = useRouter();
 
@@ -9,7 +9,7 @@ const LoginForm = () => {
         <>
         {/* Columns Bulma */}
         <div className='horizontal-alignment'>
-            <div className="columns content is-mobile is-centered is-vcentered">
+            <div className="columns content-login is-mobile is-centered is-vcentered">
                 <div className="column is-half">
                     {/* Formulario */}
                     <div className="box">

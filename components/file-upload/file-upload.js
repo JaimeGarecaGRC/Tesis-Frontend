@@ -1,4 +1,6 @@
-const FileUpload = () => {
+import React from 'react';
+
+function FileUpload() {
     return (
         <div class={`file is-large is-boxed has-name is-link is-centered `}>
             <label class="file-label">

@@ -8,6 +8,8 @@ $danger: #DF2935;
 $dark: #06231B;
 $text: #03120E;
 
+$pagination-color: #03120E;
+$pagination-border-color: #06231B;
 $body-background-color: #F1F7F9;
 
 .horizontal-alignment{
@@ -16,7 +18,7 @@ $body-background-color: #F1F7F9;
     align-items: center;
 }
 
-.content{
+.content-login{
     width: 100rem;
     height: 45rem;
 }

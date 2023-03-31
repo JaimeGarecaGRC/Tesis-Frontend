@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Navbar = () => {
+function Navbar() {
     return (
         <nav className="navbar is-primary">
             <div className="navbar-brand">

@@ -3,10 +3,11 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';    
 import { getCurrentPath, changeMenu } from '/components/menu/menu-logic.js';
 
-const Menu = () => {
+function Menu() {
 
     const currentUrl = getCurrentPath();
-    const { documentoId, ticketId, revisionId, categoriaId, usuarioId } = useRouter().query;
+    const { documentoId, ticketId, revisionId, categoriaId, usuarioId, busquedaConsulta } = useRouter().query;
+    const  consulta  = encodeURIComponent(useRouter().query.consulta);
 
     const [menuOptions, setMenuOptions] = useState([]);
     const [changer, setChanger] = useState(0);
@@ -28,6 +29,7 @@ const Menu = () => {
             </p>
             <ul className="menu-list">
                 <li><Link className={currentUrl == '/busquedas' ? 'is-active' : ''} href="/busquedas">Buscar</Link></li>
+                <li><Link className={currentUrl == '/busquedas/resultado?consulta=' + consulta ? 'is-active' : ''} href="/busquedas/resultado?consulta=busco%20un%20documento">Resultado...</Link></li>
             </ul>
 
             {/* Seccion de Documentos */}
