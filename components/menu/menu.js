@@ -6,7 +6,7 @@ import { getCurrentPath, changeMenu } from '/components/menu/menu-logic.js';
 function Menu() {
 
     const currentUrl = getCurrentPath();
-    const { documentoId, ticketId, revisionId, categoriaId, usuarioId, busquedaConsulta } = useRouter().query;
+    const { documentoId, ticketId, revisionId, categoriaId, usuarioId } = useRouter().query;
     const  consulta  = encodeURIComponent(useRouter().query.consulta);
 
     const [menuOptions, setMenuOptions] = useState([]);
@@ -24,7 +24,7 @@ function Menu() {
         <aside className="menu box-menu">
 
             {/* Seccion de Busqueda */}
-            <p className="menu-label" onClick = { () => console.log(menuOptions)}>
+            <p className="menu-label">
                 Busqueda
             </p>
             <ul className="menu-list">

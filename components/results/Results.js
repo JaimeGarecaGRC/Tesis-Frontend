@@ -1,13 +1,13 @@
 import React from 'react';
 
 function Results() {
-  return (
+    return (
         <>
         <div className="box">
             <article className="media">
                 <figure className="media-left">
                     <span className="icon icon is-large 3rem x 3rem fas fa-2x">
-                        <i className="fa-regular fa-file"></i>
+                        <i className="fa-regular fa-file-lines"></i>
                     </span>
                 </figure>
                 <div className="media-content">

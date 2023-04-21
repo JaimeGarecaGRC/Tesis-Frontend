@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 if (typeof window !== "undefined") {
     if(JSON.parse(localStorage.getItem("menuData")) == null || undefined)
     {
-        localStorage.setItem("menuData", JSON.stringify([false, false]));
+        localStorage.setItem("menuData", JSON.stringify([]));
     }
 }
 

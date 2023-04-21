@@ -1,0 +1,11 @@
+{
+    "id": 1,
+    "titulo": "Documento Bonito",
+    "descripcion": "Este es un documento hermoso para un documento hermoso esto es una gran noticia",
+    "creador": "Usuario321",
+    "categoria": [
+        {"nombre": "IA"},
+        {"nombre": "Tecnologia"}
+    ],
+    "ultimaAct": "10/10/2010" 
+}

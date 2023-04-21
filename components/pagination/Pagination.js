@@ -2,30 +2,30 @@ import React from 'react';
 
 function Pagination() {
     return (
-        <nav class="pagination is-centered is-rounded" role="navigation" aria-label="pagination">
-            <a class="pagination-previous">Anterior</a>
-            <a class="pagination-next">Siguiente</a>
-            <ul class="pagination-list">
+        <nav className="pagination is-centered is-rounded" role="navigation" aria-label="pagination">
+            <a className="pagination-previous">Anterior</a>
+            <a className="pagination-next">Siguiente</a>
+            <ul className="pagination-list">
                 <li>
-                    <a class="pagination-link is-info" aria-label="Goto page 1">1</a>
+                    <a className="pagination-link is-info" aria-label="Goto page 1">1</a>
                 </li>
                 <li>
-                    <span class="pagination-ellipsis">&hellip;</span>
+                    <span className="pagination-ellipsis">&hellip;</span>
                 </li>
                 <li>
-                    <a class="pagination-link" aria-label="Goto page 45">4</a>
+                    <a className="pagination-link" aria-label="Goto page 45">4</a>
                 </li>
                 <li>
-                    <a class="pagination-link is-current" aria-label="Page 46" aria-current="page">5</a>
+                    <a className="pagination-link is-current" aria-label="Page 46" aria-current="page">5</a>
                 </li>
                 <li>
-                    <a class="pagination-link" aria-label="Goto page 47">6</a>
+                    <a className="pagination-link" aria-label="Goto page 47">6</a>
                 </li>
                 <li>
-                    <span class="pagination-ellipsis">&hellip;</span>
+                    <span className="pagination-ellipsis">&hellip;</span>
                 </li>
                 <li>
-                    <a class="pagination-link" aria-label="Goto page 86">10</a>
+                    <a className="pagination-link" aria-label="Goto page 86">10</a>
                 </li>
             </ul>
         </nav>

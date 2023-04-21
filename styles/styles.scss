@@ -29,13 +29,32 @@ $body-background-color: #F1F7F9;
 }
 
 .box-menu{
-    max-height: 92vh;
+    height: 92vh;
     overflow-y: auto;
 }
 
 .box-menu::-webkit-scrollbar {
     display: none;
 }
+
+.box-list {
+    height: 76.5vh;
+    overflow-y: auto;
+}
+
+.box-list::-webkit-scrollbar {
+    display: none;
+}
+
+.documento-slider {
+    height: 95vh;
+    overflow-y: auto;
+}
+
+.documento-slider::-webkit-scrollbar {
+    display: none;
+}
+
 
 @import "../node_modules/bulma/bulma.sass";
 

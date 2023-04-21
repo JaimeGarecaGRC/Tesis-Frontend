@@ -1,0 +1,59 @@
+[
+    {
+        "id": "0",
+        "area": "Gestion", 
+        "grupos": 
+            [{"id": "0", "grupo": "Staff", "documentos": 
+                [
+                    {"id": "0", "iconName": "fa-regular fa-file-lines", "abb": "[D.E.]: ", "title": "Titulo Bonito Array", "username": "UsuarioArray321" },
+                    {"id": "1", "iconName": "fa-regular fa-newspaper", "abb": "[ART.]: ", "title": "Titulo Bonito newspaper Array", "username": "User1234Array" },
+                    {"id": "2", "iconName": "fa-regular fa-file-video", "abb": "[VD.]: ", "title": "Titulo Bonito Video Array", "username": "UsuarioArray321" }
+                ]},    
+            {"id": "1", "grupo": "Administrativos", "documentos": []}, 
+            {"id": "2", "grupo": "Linpieza", "documentos": []}]
+    },
+    {
+        "id": "1",
+        "area": "Cocina", 
+        "grupos": 
+            [{"id": "0", "grupo": "Cocina Caliente", "documentos": 
+                [
+                    {"id": "0", "iconName": "fa-regular fa-file-lines", "abb": "[D.E.]: ", "title": "Titulo Bonito Array", "username": "UsuarioArray321" },
+                    {"id": "1", "iconName": "fa-regular fa-newspaper", "abb": "[ART.]: ", "title": "Titulo Bonito newspaper Array", "username": "User1234Array" },
+                    {"id": "2", "iconName": "fa-regular fa-file-video", "abb": "[VD.]: ", "title": "Titulo Bonito Video Array", "username": "UsuarioArray321" }
+                ]},    
+            {"id": "1", "grupo": "Cocina Fria", "documentos": 
+                [
+                    {"id": "0", "iconName": "fa-regular fa-newspaper", "abb": "[ART.]: ", "title": "Titulo Bonito newspaper Array", "username": "User1234Array" },
+                    {"id": "1", "iconName": "fa-regular fa-newspaper", "abb": "[ART.]: ", "title": "Titulo Bonito newspaper Array", "username": "User1234Array" },
+                    {"id": "2", "iconName": "fa-regular fa-newspaper", "abb": "[ART.]: ", "title": "Titulo Bonito newspaper Array", "username": "User1234Array" },
+                    {"id": "3", "iconName": "fa-regular fa-newspaper", "abb": "[ART.]: ", "title": "Titulo Bonito newspaper Array", "username": "User1234Array" },
+                    {"id": "4", "iconName": "fa-regular fa-newspaper", "abb": "[ART.]: ", "title": "Titulo Bonito newspaper Array", "username": "User1234Array" },
+                    {"id": "5", "iconName": "fa-regular fa-newspaper", "abb": "[ART.]: ", "title": "Titulo Bonito newspaper Array", "username": "User1234Array" },
+                    {"id": "6", "iconName": "fa-regular fa-newspaper", "abb": "[ART.]: ", "title": "Titulo Bonito newspaper Array", "username": "User1234Array" }
+                ]}, 
+            {"id": "2", "grupo": "Cocteleria", "documentos": []}]
+    },
+    {
+        "id": "2",
+        "area": "Meseria", 
+        "grupos": 
+            [{"id": "0", "grupo": "Meseros DIA", "documentos": 
+                [
+                    {"id": "0", "iconName": "fa-regular fa-file-lines", "abb": "[D.E.]: ", "title": "Titulo Bonito Array", "username": "UsuarioArray321" },
+                    {"id": "1", "iconName": "fa-regular fa-newspaper", "abb": "[ART.]: ", "title": "Titulo Bonito newspaper Array", "username": "User1234Array" },
+                    {"id": "2", "iconName": "fa-regular fa-file-video", "abb": "[VD.]: ", "title": "Titulo Bonito Video Array", "username": "UsuarioArray321" }
+                ]},    
+            {"id": "1", "grupo": "Meseros NOCHE", "documentos": []}]
+    },
+    {
+        "id": "3",
+        "area": "Extras", 
+        "grupos": []
+    },
+    {
+        "id": "4",
+        "area": "Extras 2", 
+        "grupos": []
+    }
+]

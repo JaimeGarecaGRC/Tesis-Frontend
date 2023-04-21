@@ -27,7 +27,7 @@ function LoginForm() {
                             </div>
                         </div> 
 
-                        <button class="button is-link" onClick={() => router.push('/articulos')}>Ingresar</button>
+                        <button className="button is-link" onClick={() => router.push('/articulos')}>Ingresar</button>
 
                     </div>
 

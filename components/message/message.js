@@ -1,12 +1,12 @@
 
 function Message() {
     return (
-        <article class={`message is-link `}>
-            <div class="message-header">
+        <article className={`message is-link `}>
+            <div className="message-header">
                 {/* <p>Subido con Exito</p> */}
                 <p>Subir un Archivo</p>
             </div>
-            <div class="message-body">
+            <div className="message-body">
                 {/* El archivo <strong>Nombre-Con-Archivo.txt</strong> se subio en exito. */}
                 Sube un archivo de formato .PDF o .WORD
             </div>
