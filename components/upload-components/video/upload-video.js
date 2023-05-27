@@ -3,7 +3,6 @@ import React from 'react';
 function UploadVideo() {
     return(
         <>
-
             <div className="columns is-mobile is-centered">
                 <div className="column is-three-quarters" style={{marginTop: 20, marginBottom: 20}}>
                     <div>
@@ -43,8 +42,6 @@ function UploadVideo() {
                     </div>
                 </div>
             </div>
-
-
             </>
     )
 }

@@ -7,10 +7,7 @@ const SubirVideo = () => {
             <div className="columns is-centered">
                 <div className="column is-three-quarters documento-slider" >
                     <div className="box" style={{ marginTop: "5%", marginBottom: "5%" }}>
-
                         <UploadVideo />
-
-
                     </div>
                 </div>
             </div>
